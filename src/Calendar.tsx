@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { NavLink as RouterNavLink, RouteComponentProps } from 'react-router-dom';
 import { Table } from 'react-bootstrap';
 import { findIana } from 'windows-iana';
-import { Event } from '@microsoft/microsoft-graph-client';
+import { Event } from 'microsoft-graph-client';
 import { AuthenticatedTemplate } from '@azure/msal-react';
 import { add, format, getDay, parseISO } from 'date-fns';
 import { endOfWeek, startOfWeek } from 'date-fns/esm';
